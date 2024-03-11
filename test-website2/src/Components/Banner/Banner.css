@@ -1,0 +1,90 @@
+
+
+.banner-container {
+    position: relative;
+  }
+  
+  .banner-image {
+    width: 98vw;
+    height: 700px;
+    margin: 0 auto;
+    top: 0;
+    background-image: url("../../assets/Home/home-banner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+  }
+  
+  .banner-overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(129, 5, 129, 0.596); 
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .banner-text p {
+    font-size: 1.2rem;
+  }
+
+
+  
+input:focus {
+    outline: none;
+  }
+
+  .banner-form {
+    position: absolute;
+    bottom: 50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: flex-end; 
+}
+
+.banner-form input {
+    flex: auto;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    height: 30px;
+}
+
+.div-banner-chevron{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight:bold;
+  font-size: 55px;
+}
+
+
+.banner-form button {
+    color: white;
+    border-radius: 5px;
+    /* border: none; */
+    cursor: pointer;
+    width: 150px; 
+    height: 48px; 
+    border: 1px solid white;
+}
+
